@@ -54,10 +54,10 @@ return (
                     <input type="password" placeholder=" Confirm Password" onChange={(e) => setConfirmPass(e.target.value)}></input>
                   
                     <p style={{ color: "red" }}>{error}</p>
-                    <p style={{ color: "red" }}>Forgot Password?</p>
+                    <p style={{ color: "blue" }}>Forgot Password?</p>
 
                     <button onClick={handleSubmit} >Login</button>
-                    <p>Not a Member  <p style={{ color: "red" }} onClick={() => setLogin(false)}>Signup now</p></p>
+                    <p>Not a Member  <p style={{ color: "blue" }} onClick={() => setLogin(false)}>Signup now</p></p>
                 </div>
             </> : <>
             <form>
